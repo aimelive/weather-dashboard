@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Header -->
+      <header class="header">
+        <h1>Weather Dashboard</h1>
+        <p>Get real-time weather information for any city</p>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Search Section -->
+        <div class="search-section">
+          <div class="search-container">
+            <input
+              type="text"
+              id="cityInput"
+              placeholder="Enter city name..."
+              class="search-input"
+            />
+            <button id="searchBtn" class="search-button">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Weather Display -->
+        <div id="weatherResult" class="weather-result">
+          <div class="weather-placeholder">
+            <div class="placeholder-icon">🌤️</div>
+            <p>Enter a city name to get weather information</p>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>Weather Dashboard</p>
+      </footer>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
