@@ -2,6 +2,8 @@
 
 A modern, responsive weather dashboard built with vanilla JavaScript, HTML, and CSS. This project demonstrates clean code architecture and modern web development practices.
 
+## The Demo video link: https://drive.google.com/file/d/1Uk8dj_OKjpPe7bgu4Q0dLxm8hp3Wgmyw/view?usp=sharing
+
 ## 🌟 Features
 
 - **Real-time Weather Data**: Get current weather information for any city worldwide
